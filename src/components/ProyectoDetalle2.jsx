@@ -114,18 +114,6 @@ function ProyectoDetalle2({ seccionAnimacion }) {
               dispositivos. Además, la ausencia de rutas separadas dentro del sitio promueve una navegación fluida y
               sin interrupciones, mejorando la usabilidad y la accesibilidad general del sitio web.
             </p>
-
-            <div className="mt-5">
-              <h3 className="text-xl font-semibold mb-2 text-center">Enlace GitHub</h3>
-              <div className="mt-4 flex justify-center">
-                <a href="https://github.com/crodros2601/Tienda-de-ropa" target="_blank"><button
-                  className="bg-white text-black font-bold py-2 px-4 ml-4 rounded"
-                >
-                  GitHub
-                </button></a>
-              </div>
-            </div>
-
           </div>
 
         </div>

@@ -4,9 +4,11 @@ import reactIcon from '../image/react.png';
 import laravel from '../image/laravel.png';
 import docker from '../image/docker.png';
 import tailwind from '../image/Tailwind.png'; 
+import css from '../image/css.png'; 
 import { Transition } from '@headlessui/react';
 import ensembleElegance from '../image/ensembleelegance.png';
 import inicio from '../image/inicio.png';
+import iniciarSesion from '../image/iniciarSesion.png';
 
 const proyectos = [
   {
@@ -23,6 +25,14 @@ const proyectos = [
     descripcion: 'Portafolio personal para mostrar proyectos y habilidades.',
     tecnologias: ['React', 'Tailwind'],
   },
+  {
+    id: 3,
+    imagen: iniciarSesion,
+    nombre: 'Agenda de Contactos',
+    descripcion: 'Agenda de contactos personal con autenticación.',
+    tecnologias: ['React', 'CSS', 'Laravel'],
+  },
+  
 ];
 
 const Proyectos = ({ seccionAnimacion, navegacion }) => {
@@ -50,6 +60,8 @@ const Proyectos = ({ seccionAnimacion, navegacion }) => {
         return docker;
       case 'tailwind':
         return tailwind;
+      case 'css':
+        return css;
       default:
         return null;
     }
@@ -91,7 +103,7 @@ const Proyectos = ({ seccionAnimacion, navegacion }) => {
           minHeight: isMobile ? '150vh' : '100vh'
         }}
       >
-        <div className={`grid gap-4 sm:gap-8 ${gridColumns}`}>
+        <div className={`grid gap-4 sm:gap-8 mr-10 ml-10 ${gridColumns}`}>
           {currentProjects.map((proyecto, index) => (
             <div key={proyecto.id} className="bg-white text-black p-4 rounded-lg mt-6 sm:mt-10">
               <img
@@ -113,6 +125,14 @@ const Proyectos = ({ seccionAnimacion, navegacion }) => {
                 {index === 1 && (
                   <button
                     onClick={() => navegacion('Proyecto2')}
+                    className="bg-black text-white px-4 py-2 rounded-md mt-3 sm:mt-0"
+                  >
+                    Ver más detalles
+                  </button>
+                )}
+                {index === 2 && (
+                  <button
+                    onClick={() => navegacion('Proyecto3')}
                     className="bg-black text-white px-4 py-2 rounded-md mt-3 sm:mt-0"
                   >
                     Ver más detalles

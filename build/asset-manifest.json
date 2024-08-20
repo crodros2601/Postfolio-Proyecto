@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.501574cf.css",
-    "main.js": "/static/js/main.95bde679.js",
-    "static/js/453.e3ca81c5.chunk.js": "/static/js/453.e3ca81c5.chunk.js",
+    "main.css": "/static/css/main.44a87cb8.css",
+    "main.js": "/static/js/main.5cdfa75f.js",
+    "static/js/453.45797c09.chunk.js": "/static/js/453.45797c09.chunk.js",
     "static/media/inicio.png": "/static/media/inicio.f824e445677f9bc6b86d.png",
     "static/media/proyectos.png": "/static/media/proyectos.3e7e59ae0a22d8340225.png",
     "static/media/estructuraGenero4.png": "/static/media/estructuraGenero4.475d6eafab15aa99e2bb.png",
     "static/media/estructuraGenero1.png": "/static/media/estructuraGenero1.e34a5ea57c2cde9ebab6.png",
     "static/media/experiencia.png": "/static/media/experiencia.e7f8c81b08f9c1561906.png",
     "static/media/tecnologia.png": "/static/media/tecnologia.0c138e246296028802ea.png",
+    "static/media/registro.png": "/static/media/registro.87fbf7d56d7ce9ac2d9a.png",
     "static/media/estructuraGenero2.png": "/static/media/estructuraGenero2.58b9a65eb23969b9c61b.png",
     "static/media/street2.jpg": "/static/media/street2.247640cdf2dc1ca089fc.jpg",
+    "static/media/iniciarSesion.png": "/static/media/iniciarSesion.76db55fb7731827bbe67.png",
     "static/media/street.jpg": "/static/media/street.59d94feee6f6838c04f0.jpg",
     "static/media/street3.jpg": "/static/media/street3.c211cb42bb52801fde86.jpg",
     "static/media/productoDetalle2.png": "/static/media/productoDetalle2.f9b0926414d7fca66d40.png",
@@ -22,10 +24,12 @@
     "static/media/lamparas.jpg": "/static/media/lamparas.6b8db71dc2ea75849d10.jpg",
     "static/media/sesion1.png": "/static/media/sesion1.ea601cac428a9c855394.png",
     "static/media/lamparas2.jpg": "/static/media/lamparas2.47d9fa0e7090a18bdeac.jpg",
+    "static/media/listarContacto.png": "/static/media/listarContacto.953eb6c8df0505f6d1e4.png",
     "static/media/mysql.png": "/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/productoDetalle.png": "/static/media/productoDetalle.bdb7d217f19df9787fdf.png",
     "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/cabecera1.png": "/static/media/cabecera1.795ebec174124acdac14.png",
+    "static/media/detalleContacto.png": "/static/media/detalleContacto.fc79cf21382fb614c1ce.png",
     "static/media/Tailwind.png": "/static/media/Tailwind.ea553010d617221f5416.png",
     "static/media/PHP.png": "/static/media/PHP.a7759c068d5c9f03bebf.png",
     "static/media/eclipse.png": "/static/media/eclipse.15cf3094c5cff6823b56.png",
@@ -39,16 +43,17 @@
     "static/media/yo.jpg": "/static/media/yo.3be4b624d8819cacc5cf.jpg",
     "static/media/laravel.png": "/static/media/laravel.279e3fcb19d440713887.png",
     "static/media/nodejs.png": "/static/media/nodejs.70b0cdf9a0ae18acaa39.png",
+    "static/media/nuevoContacto.png": "/static/media/nuevoContacto.05146ecde8d1d76efd18.png",
     "static/media/HTML.png": "/static/media/HTML.c4fb2b596aa60598c20a.png",
     "static/media/css.png": "/static/media/css.f7ad8641f0f9e96f4b30.png",
     "static/media/git.svg": "/static/media/git.70f099170f46f760e5d9f09849c589b6.svg",
     "index.html": "/index.html",
-    "main.501574cf.css.map": "/static/css/main.501574cf.css.map",
-    "main.95bde679.js.map": "/static/js/main.95bde679.js.map",
-    "453.e3ca81c5.chunk.js.map": "/static/js/453.e3ca81c5.chunk.js.map"
+    "main.44a87cb8.css.map": "/static/css/main.44a87cb8.css.map",
+    "main.5cdfa75f.js.map": "/static/js/main.5cdfa75f.js.map",
+    "453.45797c09.chunk.js.map": "/static/js/453.45797c09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.501574cf.css",
-    "static/js/main.95bde679.js"
+    "static/css/main.44a87cb8.css",
+    "static/js/main.5cdfa75f.js"
   ]
 }
