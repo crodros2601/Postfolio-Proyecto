@@ -100,7 +100,7 @@ const Proyectos = ({ seccionAnimacion, navegacion }) => {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(${lamparas2})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          minHeight: isMobile ? '150vh' : '100vh'
+          minHeight: isMobile ? '210vh' : '100vh'
         }}
       >
         <div className={`grid gap-4 sm:gap-8 mr-10 ml-10 ${gridColumns}`}>
