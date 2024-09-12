@@ -12,8 +12,13 @@ function Inicio({ seccionAnimacion, navegacion }) {
   // Función para descargar el CV
   const descargarCV = () => {
     const link = document.createElement('a');
-    link.href = process.env.PUBLIC_URL + '/CV-CarmeloRodriguez.pdf';
-    link.download = 'CV-CarmeloRodriguez.pdf';
+    link.href = process.env.PUBLIC_URL + '/CV_FrontEnd.pdf';
+    link.download = 'CV_FrontEnd.pdf';
+    link.click();
+
+    const link2 = document.createElement('a');
+    link.href = process.env.PUBLIC_URL + '/CV_FullStack.pdf';
+    link.download = 'CV_FullStack.pdf';
     link.click();
   };
 

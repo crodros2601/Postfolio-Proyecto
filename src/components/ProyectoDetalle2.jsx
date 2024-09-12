@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Transition } from '@headlessui/react';
 import inicio from '../image/inicio.png';
-import cabecera2 from '../image/cabecera2.png';
-import cabecera3 from '../image/cabecera3.png';
-import estructuraGenero1 from '../image/estructuraGenero1.png';
-import seccionProductos from '../image/seccionProductos.png';
-import productoDetalle2 from '../image/productoDetalle2.png';
 import tecnologia from '../image/tecnologia.png';
 import experiencia from '../image/experiencia.png';
 import proyectos from '../image/proyectos.png';
@@ -28,7 +23,7 @@ function ProyectoDetalle2({ seccionAnimacion }) {
   return (
     <>
       <Transition
-        show={seccionAnimacion === 'Proyecto2'}
+        show={seccionAnimacion === 'Proyecto4'}
         enter="transition ease-out duration-500"
         enterFrom="opacity-0 transform translate-y-full"
         enterTo="opacity-100 transform translate-y-0"
@@ -37,7 +32,7 @@ function ProyectoDetalle2({ seccionAnimacion }) {
         leaveTo="opacity-0 transform translate-y-full"
       >
         <div
-          id="Proyecto2"
+          id="Proyecto4"
           className="h-screen w-full flex flex-col items-center justify-center bg-gradient-to-b from-blue-200 to-indigo-100 text-white"
           style={{
             background: 'rgba(0, 0, 0, 0.9)',
@@ -115,7 +110,21 @@ function ProyectoDetalle2({ seccionAnimacion }) {
               sin interrupciones, mejorando la usabilidad y la accesibilidad general del sitio web.
             </p>
           </div>
-
+          <div>
+              <h3 className="text-xl font-semibold mb-2 text-center">Código en GitHub</h3>
+              <div className="mt-4 flex flex-col md:flex-row items-center justify-center">
+                <a
+                  href="https://github.com/crodros2601/Postfolio-Proyecto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block md:inline-block ml-0 md:ml-4"
+                >
+                  <button className="bg-white text-black font-bold py-2 px-4 rounded">
+                    GitHub
+                  </button>
+                </a>
+              </div>
+            </div>  
         </div>
       </Transition>
     </>

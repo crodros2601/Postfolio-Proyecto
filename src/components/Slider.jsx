@@ -7,8 +7,9 @@
   import Proyectos from './Proyectos';
   import Contacto from './Contacto';
   import Proyecto1 from './ProyectoDetalle1';
-  import Proyecto2 from './ProyectoDetalle2';
+  import Proyecto4 from './ProyectoDetalle2';
   import Proyecto3 from './ProyectoDetalle3';
+  import Proyecto2 from './ProyectoDetalle4';
 
   function Slider() {
     const [seccionAnimacion, setSeccionAnimacion] = useState('Inicio');
@@ -57,7 +58,8 @@
         Contacto: 'Contacto',
         Proyecto1 : 'Proyecto1',
         Proyecto2 : 'Proyecto2',
-        Proyecto3 : 'Proyecto3'
+        Proyecto3 : 'Proyecto3',
+        Proyecto4 : 'Proyecto4'
 
       };
       document.title = titulos[seccionAnimacion];
@@ -222,8 +224,9 @@
           <Experiencia seccionAnimacion={seccionAnimacion} />
           <Proyectos seccionAnimacion={seccionAnimacion} navegacion={navegacion}/>
           <Proyecto1 seccionAnimacion={seccionAnimacion} />
-          <Proyecto2 seccionAnimacion={seccionAnimacion} />
+          <Proyecto4 seccionAnimacion={seccionAnimacion} />
           <Proyecto3 seccionAnimacion={seccionAnimacion} />
+          <Proyecto2 seccionAnimacion={seccionAnimacion} />
           <Contacto seccionAnimacion={seccionAnimacion} />
         </div>
       </>

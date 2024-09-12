@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.44a87cb8.css",
-    "main.js": "/static/js/main.14ed780c.js",
+    "main.css": "/static/css/main.45242820.css",
+    "main.js": "/static/js/main.49306d55.js",
     "static/js/453.45797c09.chunk.js": "/static/js/453.45797c09.chunk.js",
+    "static/media/gamehaven.png": "/static/media/gamehaven.e396704b821edd73a3dc.png",
     "static/media/inicio.png": "/static/media/inicio.f824e445677f9bc6b86d.png",
+    "static/media/carrouselGameHaven.png": "/static/media/carrouselGameHaven.8bbb28860307cee57b2c.png",
     "static/media/proyectos.png": "/static/media/proyectos.3e7e59ae0a22d8340225.png",
     "static/media/estructuraGenero4.png": "/static/media/estructuraGenero4.475d6eafab15aa99e2bb.png",
     "static/media/estructuraGenero1.png": "/static/media/estructuraGenero1.e34a5ea57c2cde9ebab6.png",
@@ -11,6 +13,7 @@
     "static/media/tecnologia.png": "/static/media/tecnologia.0c138e246296028802ea.png",
     "static/media/registro.png": "/static/media/registro.87fbf7d56d7ce9ac2d9a.png",
     "static/media/estructuraGenero2.png": "/static/media/estructuraGenero2.58b9a65eb23969b9c61b.png",
+    "static/media/portadaGameHaven.png": "/static/media/portadaGameHaven.998e963406321c4fd13c.png",
     "static/media/street2.jpg": "/static/media/street2.247640cdf2dc1ca089fc.jpg",
     "static/media/iniciarSesion.png": "/static/media/iniciarSesion.76db55fb7731827bbe67.png",
     "static/media/street.jpg": "/static/media/street.59d94feee6f6838c04f0.jpg",
@@ -23,10 +26,14 @@
     "static/media/seccionProductos.png": "/static/media/seccionProductos.e83a3cf00b1f1b7bb628.png",
     "static/media/lamparas.jpg": "/static/media/lamparas.6b8db71dc2ea75849d10.jpg",
     "static/media/sesion1.png": "/static/media/sesion1.ea601cac428a9c855394.png",
+    "static/media/gamehavenInteractivo1.png": "/static/media/gamehavenInteractivo1.213737aac37cb46f3d60.png",
     "static/media/lamparas2.jpg": "/static/media/lamparas2.47d9fa0e7090a18bdeac.jpg",
     "static/media/listarContacto.png": "/static/media/listarContacto.953eb6c8df0505f6d1e4.png",
+    "static/media/responsive2.jpeg": "/static/media/responsive2.4a32ff01ebe80481008c.jpeg",
     "static/media/mysql.png": "/static/media/mysql.167c88550478e6f0f85c.png",
     "static/media/productoDetalle.png": "/static/media/productoDetalle.bdb7d217f19df9787fdf.png",
+    "static/media/gamehavenInteractivo2.png": "/static/media/gamehavenInteractivo2.5896e0bf1302ff36c1f2.png",
+    "static/media/responsive1.jpeg": "/static/media/responsive1.d6b8de03ccefaac1a53d.jpeg",
     "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/cabecera1.png": "/static/media/cabecera1.795ebec174124acdac14.png",
     "static/media/detalleContacto.png": "/static/media/detalleContacto.fc79cf21382fb614c1ce.png",
@@ -38,6 +45,7 @@
     "static/media/gitHub.png": "/static/media/gitHub.c9ba429ce79ba199efb0.png",
     "static/media/docker.png": "/static/media/docker.c1404d2c9eb77e0a00a3.png",
     "static/media/cabecera2.png": "/static/media/cabecera2.37f7ed78f004179152a2.png",
+    "static/media/dinamicoGameHaven.png": "/static/media/dinamicoGameHaven.7d5ff240b5d70763b0a9.png",
     "static/media/visualStudio.png": "/static/media/visualStudio.136591bc8819d4fa71dd.png",
     "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/yo.jpg": "/static/media/yo.3be4b624d8819cacc5cf.jpg",
@@ -48,12 +56,12 @@
     "static/media/css.png": "/static/media/css.f7ad8641f0f9e96f4b30.png",
     "static/media/git.svg": "/static/media/git.70f099170f46f760e5d9f09849c589b6.svg",
     "index.html": "/index.html",
-    "main.44a87cb8.css.map": "/static/css/main.44a87cb8.css.map",
-    "main.14ed780c.js.map": "/static/js/main.14ed780c.js.map",
+    "main.45242820.css.map": "/static/css/main.45242820.css.map",
+    "main.49306d55.js.map": "/static/js/main.49306d55.js.map",
     "453.45797c09.chunk.js.map": "/static/js/453.45797c09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44a87cb8.css",
-    "static/js/main.14ed780c.js"
+    "static/css/main.45242820.css",
+    "static/js/main.49306d55.js"
   ]
 }
