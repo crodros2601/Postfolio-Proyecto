@@ -14,8 +14,7 @@ import visualStudio from '../image/visualStudio.png';
 import docker from '../image/docker.png';
 import eclipse from '../image/eclipse.png';
 import git from '../image/git.svg';
-import figma from '../image/figma.png';
-import nodejs from '../image/nodejs.png';
+import angular from '../image/angular.png';
 
 function Tecnologias({ seccionAnimacion }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -112,10 +111,7 @@ function Tecnologias({ seccionAnimacion }) {
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-4">APRENDIENDO</h3>
               <div className="flex flex-wrap justify-center space-x-2 md:space-x-4 md:justify-start">
                 <div className="w-20 h-20 md:w-24 md:h-24">
-                  <img src={nodejs} alt="Node.js Logo" className="w-full h-full object-contain p-2" />
-                </div>
-                <div className="w-20 h-20 md:w-24 md:h-24">
-                  <img src={figma} alt="Figma Logo" className="w-full h-full object-contain p-2" />
+                  <img src={angular} alt="Node.js Logo" className="w-full h-full object-contain p-2" />
                 </div>
               </div>
             </div>

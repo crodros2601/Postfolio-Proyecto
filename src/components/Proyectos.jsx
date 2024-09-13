@@ -7,11 +7,13 @@ import tailwind from '../image/Tailwind.png';
 import html from '../image/HTML.png';
 import javascript from '../image/javascript.png';
 import css from '../image/css.png'; 
+import java from '../image/java.png'; 
 import { Transition } from '@headlessui/react';
 import ensembleElegance from '../image/ensembleelegance.png';
 import inicio from '../image/inicio.png';
 import iniciarSesion from '../image/iniciarSesion.png';
 import portadaGameHaven from '../image/portadaGameHaven.png';
+import conversorPortada from '../image/conversorPortada.png'; 
 
 const proyectos = [
   {
@@ -42,7 +44,13 @@ const proyectos = [
     descripcion: 'Portafolio personal para mostrar proyectos y habilidades.',
     tecnologias: ['React', 'TailWind'],
   },
-  
+  {
+    id: 5,
+    imagen: conversorPortada,
+    nombre: 'Conversor medidas CSS',
+    descripcion: 'Herramienta para convertir entre unidades CSS (px, em, rem, %), facilitando el diseño responsive.',
+    tecnologias: ['Java'],
+  },
 ];
 
 const Proyectos = ({ seccionAnimacion, navegacion }) => {
@@ -76,6 +84,8 @@ const Proyectos = ({ seccionAnimacion, navegacion }) => {
         return html;
       case 'javascript':
         return javascript;
+      case 'java':
+        return java;
       default:
         return null;
     }

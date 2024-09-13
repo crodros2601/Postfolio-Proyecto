@@ -10,6 +10,7 @@
   import Proyecto4 from './ProyectoDetalle2';
   import Proyecto3 from './ProyectoDetalle3';
   import Proyecto2 from './ProyectoDetalle4';
+  import Proyecto5 from './ProyectoDetalle5';
 
   function Slider() {
     const [seccionAnimacion, setSeccionAnimacion] = useState('Inicio');
@@ -59,8 +60,8 @@
         Proyecto1 : 'Proyecto1',
         Proyecto2 : 'Proyecto2',
         Proyecto3 : 'Proyecto3',
-        Proyecto4 : 'Proyecto4'
-
+        Proyecto4 : 'Proyecto4',
+        Proyecto5 : 'Proyecto5'
       };
       document.title = titulos[seccionAnimacion];
     }, [seccionAnimacion]);
@@ -225,6 +226,7 @@
           <Proyectos seccionAnimacion={seccionAnimacion} navegacion={navegacion}/>
           <Proyecto1 seccionAnimacion={seccionAnimacion} />
           <Proyecto4 seccionAnimacion={seccionAnimacion} />
+          <Proyecto5 seccionAnimacion={seccionAnimacion} />
           <Proyecto3 seccionAnimacion={seccionAnimacion} />
           <Proyecto2 seccionAnimacion={seccionAnimacion} />
           <Contacto seccionAnimacion={seccionAnimacion} />
